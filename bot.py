@@ -35,8 +35,8 @@ logger.propagate = False
 logger.setLevel(logging.INFO)
 
 # fetching discord auth token and server id
-AUTH_TOKEN = os.getenv("AUTH_TOKEN", 'NzI5NjgxMTMwOTU3MTc2OTEz.Gz9KOr.JA579o_4I-TDSHBAx3JXhYqhZC94KugsxtoxYs')
-SERVER_ID = os.getenv("SERVER_ID", 1155191250211831991)
+AUTH_TOKEN = os.getenv("AUTH_TOKEN")
+SERVER_ID = os.getenv("SERVER_ID")
 
 class DiscordClient(discord.Client):
     """
