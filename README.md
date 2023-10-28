@@ -34,7 +34,7 @@
 
 ## How to run
 
-- To run the kafka consumer, run the following command: `python bot.py`
+- To run the discord client, run the following command: `python bot.py`
 
 ## Changing Large Language Model (LLM)
 1. Go to [Hugging Face](https://huggingface.co/models) and search for the model of your choice.
